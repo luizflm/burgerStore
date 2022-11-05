@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="models">
+        <div class="burger--item">
+            <a href="">
+                <div class="burger-item--img"><img src="" /></div>
+                <div class="burger-item--add">+</div>
+            </a>
+            <div class="burger-item--price">--</div>
+            <div class="burger-item--name">--</div>
+            <div class="burger-item--desc">--</div>
+        </div>
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-name">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtless">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmore">+</button>
+            </div>
+        </div>
+    </div> <!-- .models-->
+
+
+    <section class="geral">
+        <div class="geral--content">
+            <header>
+                <div class="header--c">
+                    <a href="" class="header--logo"></a>
+                    <nav>
+                        <ul>
+                            <li><a href="#burgers">Our Burgers</a></li>
+                            <li><a href="#location">Our Location</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="menu--openner"><span>0</span>🛒</div>
+            </header>
+
+            <main>
+                <section id="burgers">
+                    <h1>Burgers</h1>
+                    <div class="burger--area"></div>
+                </section> <!-- .burgers-->
+            </main>   
+
+            <section id="location">
+                <h1>Our Location</h1>
+                <div class="location--area">
+                    <div class="location--info">
+                        <div class="location--info-item">
+                            <div class="location--info-item-img">
+                                <img src="img/carta.png" />
+                            </div>
+                            xxxx-xxx-x-xx
+                        </div>
+                        <div class="location--info-item">
+                            <div class="location--info-item-img">
+                                <img src="img/localizacao.png" />
+                            </div>
+                            Full adress xxxx-xxx-x-xx
+                        </div>
+                        <div class="location--info-item">
+                            <div class="location--info-item-img">
+                                <img src="img/telefone.png" />
+                            </div>
+                             1234-3456-7890
+                        </div>
+                        <div class="location--info-item">
+                            <div class="location--info-item-img">
+                                <img src="img/arroba.png" />
+                            </div>
+                            xxxx-xxx-x-xx
+                        </div>
+                        <div class="location--info-item">
+                            <div class="location--info-item-img">
+                                <img src="img/web.png" />
+                            </div>
+                            xxxx-xxx-x-xx
+                        </div>
+                        
+                    </div>
+                   
+                </div>
+            </section>
+
+            <footer>
+                ...
+            </footer>
+        </div>  <!-- .geral--content -->
+
+        <aside>
+            <div class="cart--area">
+                <div class="menu--closer">❌</div>
+                <h1>Your products</h1>
+                <div class="cart"></div>
+                <div class="cart--details">
+                    <div class="cart--totalItem subtotal">
+                        <span>Subtotal</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="cart--totalItem discount">
+                        <span>Discount</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="cart--totalItem total big">
+                        <span>Total</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="cart--finish">Finish checkout</div>
+                </div>
+            </div>
+        </aside> <!-- aside -->
+
+    </section> <!-- .geral -->
+
+    <div class="burgerWindowArea">
+        <div class="burgerWindowBody">
+            <div class="burgerInfo--cancelMobileBtn">Back</div>
+            <div class="burgerBig">
+                <img src="">
+            </div>
+            <div class="burgerInfo">
+                <h1>--</h1>
+                <div class="burgerInfo--desc">--</div>
+                <div class="burgerInfo--frenchfriesArea">
+                    <div class="burgerInfo--sector">French fries <span>(Optional)</span></div>
+                    <div class="burgerInfo--ffOptions">
+                        <div data-key="0" class="burgerInfo--ffOption selected">BIG <span>--</span></div>
+                        <div data-key="1" class="burgerInfo--ffOption">MEDIUM <span>--</span></div>
+                        <div data-key="2" class="burgerInfo--ffOption">SMALL <span>--</span></div>
+                        <div data-key="3" class="burgerInfo--ffOption">NO FRENCH FRIES</div>
+                    </div>
+                </div>
+                <div class="burgerInfo--priceArea">
+                    <div class="burgerInfo--sector price">Price</div>
+                    <div class="burgerInfo--price">
+                        <div class="burgerInfo--actualPrice">--</div>
+                        <div class="burgerInfo--qtArea">
+                            <button class="burgerInfo--qtless">-</button>
+                            <div class="burgerInfo--qt">1</div>
+                            <button class="burgerInfo--qtmore">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="burgerInfo--addBtn">Add to cart</div>
+                <div class="burgerInfo--cancelBtn">Cancel</div>
+            </div>
+        </div>
+    </div> <!-- .burgerWindowArea-->
+
+
+
+    <script src="js/burgers.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
